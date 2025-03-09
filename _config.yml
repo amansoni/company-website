@@ -1,7 +1,7 @@
 title: My Company Website
 description: A responsive company website with blogging features.
-url: https://www.mycompanywebsite.com
-baseurl: ""
+url: "https://amansoni.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 author:
   name: Your Name
   email: yourname@example.com
