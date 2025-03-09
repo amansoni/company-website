@@ -1,0 +1,21 @@
+title: My Company Website
+description: A responsive company website with blogging features.
+url: https://www.mycompanywebsite.com
+baseurl: ""
+author:
+  name: Your Name
+  email: yourname@example.com
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - _posts
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /blog/page/:num/
